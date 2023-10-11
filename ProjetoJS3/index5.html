@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>loop frases</title>
+</head>
+<body>
+    <script>
+        var meu_numero = prompt("Quantas palavras","")
+        var minha_string = "";
+        var minha_palavra;
+        for(loop = 0;loop<meu_numero; loop++){
+            linha_numero = loop + 1;
+            minha_palavra = prompt("qual a palavra numero "+linha_numero+"?", "")
+            minha_string = "palavra" + linha_numero + ":" + minha_palavra + "<br>" + minha_string;
+        }
+        window.document.writeln("<h2>Ao contrário!<h2>")
+            window.document.writeln(minha_string)
+    </script>
+</body>
+</html>

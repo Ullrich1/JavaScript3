@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Texto</title>
+
+    <script>
+        var cerveja = prompt("Qual cerveja você prefere? skol ou kaiser?", "");
+
+        if (cerveja == "skol") {
+            adjetivo = "redondo";
+            cor = "orange";
+        }
+        else if(cerveja == "kaiser"){
+            adjetivo = "quadrado";
+            cor = "red";
+        }
+        else{
+            adjetivo = "confuso";
+            cor = "blue"
+        }
+        var frase = "se você gosta de "+cerveja+", então este é o seu momento " +adjetivo+ "";
+
+        document.write(frase);
+        window.alert(frase);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
